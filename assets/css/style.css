@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "myfont";
+  src: url("../font/Graphik-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "myfont2";
+  src: url("../font/Theinhardt-Lt.woff") format("woff");
+}
+@font-face {
+  font-family: "myfont3";
+  src: url("../font/TiemposHeadline-Semibold.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0 7rem;
+}
+header > ul {
+  list-style: none;
+  margin-left: -7rem;
+}
+h1 {
+  font-size: 3rem;
+  font-family: myfont3;
+  margin-left: -7rem;
+}
+header li {
+  display: inline;
+  margin-left: 1.5rem;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+  font-family: myfont;
+}
+.button {
+  border: 2px solid black;
+  padding: 1rem 4rem;
+  font-size: 1.7rem;
+  font-weight: 900;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 6px 0px #000;
+}
+.butt8on:hover {
+  background: #000;
+  color: #fff;
+}
+.oben {
+  width: 100%;
+  height: 100vh;
+}
+.hero {
+  width: 100%;
+  height: 80%;
+}
+h2 {
+  display: flex;
+  font-family: myfont;
+  font-size: 4rem;
+  margin: 3rem;
+
+  justify-content: center;
+}
+p {
+  font-family: myfont;
+  font-size: 1.9rem;
+  line-height: 3rem;
+  font-weight: 900;
+}
+.zweiter_abschnitt {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 7rem 0 19rem;
+}
+.zweiter_abschnitt span {
+  display: block;
+}
+.preis {
+  margin-right: 13rem;
+}
+.preis h3 {
+  font-size: 6rem;
+  font-family: myfont;
+  font-weight: 100;
+}
+.unterschrift {
+  color: #9fa2a7;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+.home_del {
+  width: 40%;
+  margin-left: 10rem;
+}
+.deliverables {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.del span {
+  display: block;
+}
+.del h4 {
+  font-size: 5rem;
+  font-family: myfont3;
+  margin-bottom: 7rem;
+}
+.del p {
+  color: #9fa2a7;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.del h5 {
+  font-family: myfont;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.works {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  background: rgb(241, 241, 244);
+  margin: 10rem auto;
+}
+ol {
+  font-size: 1.7rem;
+  color: #848689;
+  font-family: myfont2;
+  margin-bottom: 3rem;
+}
+.works .del h4 {
+  font-size: 5rem;
+  font-family: myfont3;
+  margin-bottom: 1rem;
+}
+.works .del p {
+  color: #848689;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  font-family: myfont2;
+}
+.home_how {
+  width: 50%;
+}
+.works ol {
+  margin-left: 4rem;
+}
+.works .del {
+  margin-top: 10rem;
+  margin-left: 5rem;
+}
+.cri {
+  margin: 15rem 0;
+}
+.critique .cri h4 {
+  font-size: 5rem;
+  font-family: myfont3;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.critique .cri span {
+  display: block;
+}
+.critique .cri p {
+  color: #848689;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+  font-family: myfont2;
+  text-align: center;
+}
+.achtundzwanzig span {
+  display: block;
+}
+.achtundzwanzig p {
+  color: #848689;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  font-family: myfont;
+  margin-top: -1rem;
+  margin-right: 2.5rem;
+}
+.con {
+  width: 48%;
+  margin-top: -9rem;
+  margin-left: -2rem;
+}
+.average {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  margin: 0 3rem 10rem;
+}
+footer {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid #848689;
+}
+.have {
+  margin-top: 10rem;
+}
+.have h2 {
+  font-size: 5.5rem;
+  font-family: myfont3;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.costume {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.costume img {
+  width: 8%;
+}
+.costume p {
+  color: #848689;
+  font-size: 1.7rem;
+  font-family: myfont;
+}
+.costume a {
+  font-size: 1.7rem;
+  font-family: myfont;
+  font-weight: 100;
+}
